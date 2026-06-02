@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 100" width="400" height="100">
+  <defs>
+    <linearGradient id="hg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a73e8"/>
+      <stop offset="100%" style="stop-color:#00bcd4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Mini icon -->
+  <circle cx="40" cy="50" r="40" fill="none" stroke="url(#hg)" stroke-width="2"/>
+  <rect x="22" y="40" width="5" height="25" rx="1" fill="url(#hg)" opacity="0.6"/>
+  <rect x="34" y="28" width="6" height="37" rx="1" fill="url(#hg)" opacity="0.9"/>
+  <rect x="47" y="36" width="5" height="29" rx="1" fill="url(#hg)" opacity="0.6"/>
+  <polyline points="25,52 37,40 50,48" fill="none" stroke="#00c853" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- Nivonex text -->
+  <text x="95" y="62" font-family="'Segoe UI', -apple-system, sans-serif" font-size="44" font-weight="700" fill="#e0e0e0" letter-spacing="1">Nivonex</text>
+
+  <!-- Tagline -->
+  <text x="98" y="82" font-family="'Segoe UI', -apple-system, sans-serif" font-size="12" fill="#6b7280" letter-spacing="3" font-weight="500">QUANTITATIVE ANALYTICS</text>
+</svg>

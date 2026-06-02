@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a73e8"/>
+      <stop offset="100%" stop-color="#00bcd4"/>
+    </linearGradient>
+  </defs>
+  <circle cx="50" cy="50" r="48" fill="#0d1117" stroke="url(#g)" stroke-width="2"/>
+  <!-- Candlestick -->
+  <rect x="30" y="40" width="6" height="30" rx="1" fill="url(#g)" opacity="0.7"/>
+  <rect x="45" y="25" width="7" height="45" rx="1" fill="url(#g)" opacity="0.9"/>
+  <rect x="60" y="35" width="6" height="35" rx="1" fill="url(#g)" opacity="0.7"/>
+  <!-- Trend line -->
+  <polyline points="33,55 48,40 63,50" fill="none" stroke="#00c853" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="48" cy="40" r="2.5" fill="#00c853"/>
+</svg>

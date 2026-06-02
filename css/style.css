@@ -129,20 +129,14 @@ h4 { font-size: 1.2rem; }
     gap: 2px;
 }
 
-.logo {
-    font-family: var(--font-sans);
-    font-size: 1.5rem;
-    font-weight: 800;
-    letter-spacing: 4px;
+.logo-img {
+    display: block;
+    height: 36px;
+    width: auto;
+    transition: opacity 0.3s;
 }
-
-.logo-dot {
-    font-size: 1.5rem;
-    font-weight: 800;
-    background: var(--gradient-1);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+.logo-img:hover {
+    opacity: 0.85;
 }
 
 .nav-links {
@@ -646,8 +640,8 @@ section {
     gap: 2px;
 }
 
-.footer-brand .logo {
-    font-size: 1.2rem;
+.footer-brand .logo-img {
+    height: 28px;
 }
 
 .footer-brand p {

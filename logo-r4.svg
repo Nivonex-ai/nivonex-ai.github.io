@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 120" width="500" height="120">
+  <defs>
+    <linearGradient id="r4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a73e8"/>
+      <stop offset="100%" stop-color="#00bcd4"/>
+    </linearGradient>
+  </defs>
+  <!-- Filled square -->
+  <rect x="15" y="8" width="88" height="88" rx="14" fill="url(#r4)" opacity="0.15"/>
+  <!-- Double border -->
+  <rect x="15" y="8" width="88" height="88" rx="14" fill="none" stroke="url(#r4)" stroke-width="2"/>
+  <rect x="21" y="14" width="76" height="76" rx="10" fill="none" stroke="url(#r4)" stroke-width="0.75" opacity="0.4"/>
+  <!-- N cut out (white) -->
+  <text x="33" y="66" font-family="'Inter', 'Segoe UI', sans-serif" font-size="52" font-weight="800" fill="#e0e0e0" letter-spacing="-1">N</text>
+  <!-- Small candle cut into bottom right -->
+  <rect x="72" y="55" width="16" height="25" rx="3" fill="#0d1117"/>
+  <rect x="74" y="60" width="5" height="16" rx="1" fill="url(#r4)" opacity="0.6"/>
+  <rect x="82" y="52" width="5" height="24" rx="1" fill="#00c853" opacity="0.7"/>
+  <!-- NIVONEX -->
+  <text x="120" y="55" font-family="'Inter', 'Segoe UI', sans-serif" font-size="32" font-weight="700" fill="#e0e0e0" letter-spacing="4">NIVONEX</text>
+  <text x="122" y="78" font-family="'Inter', 'Segoe UI', sans-serif" font-size="9" fill="#6b7280" letter-spacing="3" font-weight="400">Evidence Before Capital</text>
+</svg>

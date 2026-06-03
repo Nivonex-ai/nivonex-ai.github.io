@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 120" width="500" height="120">
+  <defs>
+    <linearGradient id="g3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a73e8"/>
+      <stop offset="100%" stop-color="#00bcd4"/>
+    </linearGradient>
+  </defs>
+  <!-- Minimal N + Dot -->
+  <text x="45" y="68" font-family="'Inter', 'Segoe UI', sans-serif" font-size="60" font-weight="800" fill="#e0e0e0" letter-spacing="-1">N</text>
+  <!-- Colored dot beside N -->
+  <circle cx="110" cy="52" r="3" fill="url(#g3)"/>
+  <!-- NIVONEX (lower position, integrated) -->
+  <text x="130" y="55" font-family="'Inter', 'Segoe UI', sans-serif" font-size="30" font-weight="700" fill="#e0e0e0" letter-spacing="4">NIVONEX</text>
+  <!-- Minimal separator line -->
+  <line x1="132" y1="62" x2="290" y2="62" stroke="url(#g3)" stroke-width="1" opacity="0.4"/>
+  <!-- Tagline -->
+  <text x="132" y="80" font-family="'Inter', 'Segoe UI', sans-serif" font-size="9.5" fill="#6b7280" letter-spacing="3" font-weight="400">Research First</text>
+</svg>

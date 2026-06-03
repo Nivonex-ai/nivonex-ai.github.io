@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 120" width="500" height="120">
+  <defs>
+    <linearGradient id="r3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a73e8"/>
+      <stop offset="100%" stop-color="#00bcd4"/>
+    </linearGradient>
+  </defs>
+  <!-- Three bars forming N, connected -->
+  <rect x="22" y="18" width="12" height="60" rx="3" fill="url(#r3)"/>
+  <!-- Diagonal connector (forms bridge of N) -->
+  <polygon points="34,18 48,18 34,78 22,78" fill="url(#r3)" opacity="0.7"/>
+  <!-- Right bar -->
+  <rect x="48" y="18" width="12" height="60" rx="3" fill="url(#r3)" opacity="0.85"/>
+  <!-- Green signal dot -->
+  <circle cx="54" cy="32" r="3" fill="#00c853"/>
+  <!-- Subtle box frame -->
+  <rect x="18" y="14" width="46" height="68" rx="10" fill="none" stroke="url(#r3)" stroke-width="1" opacity="0.25"/>
+  <!-- NIVONEX -->
+  <text x="88" y="55" font-family="'Inter', 'Segoe UI', sans-serif" font-size="32" font-weight="700" fill="#e0e0e0" letter-spacing="4">NIVONEX</text>
+  <text x="90" y="78" font-family="'Inter', 'Segoe UI', sans-serif" font-size="9" fill="#6b7280" letter-spacing="3" font-weight="400">Systematic Trading</text>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 120" width="500" height="120">
+  <defs>
+    <linearGradient id="b9" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a73e8"/>
+      <stop offset="100%" stop-color="#00bcd4"/>
+    </linearGradient>
+  </defs>
+  <!-- Box with gradient glow -->
+  <rect x="20" y="12" width="80" height="80" rx="16" fill="url(#b9)" opacity="0.06" filter="blur(4px)"/>
+  <rect x="20" y="12" width="80" height="80" rx="16" fill="none" stroke="url(#b9)" stroke-width="2.5"/>
+  <!-- N with gradient fill -->
+  <text x="38" y="66" font-family="'Inter', 'Segoe UI', sans-serif" font-size="52" font-weight="800" fill="url(#b9)" letter-spacing="-1">N</text>
+  <!-- Candle cluster bottom right -->
+  <rect x="72" y="50" width="4" height="24" rx="1" fill="url(#b9)" opacity="0.5"/>
+  <rect x="80" y="40" width="5" height="34" rx="1" fill="#00c853" opacity="0.8"/>
+  <rect x="88" y="48" width="4" height="26" rx="1" fill="url(#b9)" opacity="0.5"/>
+  <!-- Wicks -->
+  <line x1="82" y1="40" x2="82" y2="36" stroke="#00c853" stroke-width="1.5"/>
+  <line x1="82" y1="74" x2="82" y2="78" stroke="#00c853" stroke-width="1.5"/>
+  <!-- NIVONEX -->
+  <text x="120" y="55" font-family="'Inter', 'Segoe UI', sans-serif" font-size="30" font-weight="700" fill="#e0e0e0" letter-spacing="4">NIVONEX</text>
+  <text x="122" y="78" font-family="'Inter', 'Segoe UI', sans-serif" font-size="9.5" fill="#6b7280" letter-spacing="3" font-weight="400">First, Verify</text>
+</svg>

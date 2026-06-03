@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 120" width="500" height="120">
+  <defs>
+    <linearGradient id="fg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a73e8"/>
+      <stop offset="100%" stop-color="#00bcd4"/>
+    </linearGradient>
+    <mask id="fm2">
+      <rect x="18" y="10" width="84" height="84" rx="16" fill="white"/>
+      <text x="36" y="66" font-family="'Inter', 'Segoe UI', sans-serif" font-size="52" font-weight="800" fill="black" letter-spacing="-1">N</text>
+    </mask>
+  </defs>
+  <!-- Filled box with N cut out (из 14) -->
+  <rect x="18" y="10" width="84" height="84" rx="16" fill="url(#fg2)" mask="url(#fm2)"/>
+  <!-- Double border (из 17) -->
+  <rect x="18" y="10" width="84" height="84" rx="16" fill="none" stroke="url(#fg2)" stroke-width="2"/>
+  <!-- Candle inside cut-out area -->
+  <rect x="72" y="38" width="4" height="24" rx="1" fill="#0d1117" opacity="0.6"/>
+  <rect x="79" y="28" width="5" height="34" rx="1" fill="#0d1117" opacity="0.8"/>
+  <rect x="87" y="34" width="4" height="28" rx="1" fill="#0d1117" opacity="0.6"/>
+  <!-- Green dot (из 6) -->
+  <circle cx="90" cy="20" r="3" fill="#00c853"/>
+  <!-- NIVONEX -->
+  <text x="120" y="55" font-family="'Inter', 'Segoe UI', sans-serif" font-size="32" font-weight="700" fill="#e0e0e0" letter-spacing="4">NIVONEX</text>
+  <text x="122" y="78" font-family="'Inter', 'Segoe UI', sans-serif" font-size="9" fill="#6b7280" letter-spacing="3" font-weight="400">Built on Evidence</text>
+</svg>

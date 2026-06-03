@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 130" width="500" height="130">
+  <defs>
+    <linearGradient id="t2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a73e8"/>
+      <stop offset="100%" stop-color="#00bcd4"/>
+    </linearGradient>
+    <mask id="t2m">
+      <rect x="20" y="12" width="80" height="80" rx="16" fill="white"/>
+      <text x="38" y="66" font-family="'Inter',sans-serif" font-size="52" font-weight="800" fill="black" letter-spacing="-1">N</text>
+    </mask>
+  </defs>
+  <rect x="20" y="12" width="80" height="80" rx="16" fill="url(#t2)" mask="url(#t2m)"/>
+  <polyline points="0,50 18,50 26,30 34,65 42,45 50,50 80,50" fill="none" stroke="#0d1117" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.6"/>
+  <rect x="20" y="12" width="80" height="80" rx="16" fill="none" stroke="url(#t2)" stroke-width="2"/>
+  <!-- NIVONEX над иконкой -->
+  <text x="60" y="100" font-family="'Inter',sans-serif" font-size="28" font-weight="800" fill="#e0e0e0" letter-spacing="4" text-anchor="middle">NIVONEX</text>
+  <circle cx="225" cy="89" r="4.5" fill="url(#t2)"/>
+  <text x="60" y="120" font-family="'Inter',sans-serif" font-size="9" fill="#6b7280" letter-spacing="3" font-weight="400" text-anchor="middle">Evidence Before Capital</text>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 120" width="500" height="120">
+  <defs>
+    <linearGradient id="b3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a73e8"/>
+      <stop offset="100%" stop-color="#00bcd4"/>
+    </linearGradient>
+  </defs>
+  <rect x="20" y="12" width="80" height="80" rx="16" fill="none" stroke="url(#b3)" stroke-width="2.5"/>
+  <!-- N built from 3 bars -->
+  <rect x="36" y="22" width="8" height="48" rx="3" fill="url(#b3)"/>
+  <rect x="50" y="18" width="8" height="80" rx="3" fill="url(#b3)" opacity="0.7" transform="rotate(-12, 54, 58)"/>
+  <rect x="66" y="22" width="8" height="48" rx="3" fill="url(#b3)" opacity="0.5"/>
+  <!-- Trend dot -->
+  <circle cx="56" cy="50" r="3" fill="#00c853"/>
+  <!-- NIVONEX -->
+  <text x="120" y="55" font-family="'Inter', 'Segoe UI', sans-serif" font-size="30" font-weight="700" fill="#e0e0e0" letter-spacing="4">NIVONEX</text>
+  <text x="122" y="78" font-family="'Inter', 'Segoe UI', sans-serif" font-size="9.5" fill="#6b7280" letter-spacing="3" font-weight="400">Systematic Trading</text>
+</svg>

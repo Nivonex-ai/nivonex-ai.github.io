@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 120" width="500" height="120">
+  <defs>
+    <linearGradient id="e9" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a73e8"/>
+      <stop offset="100%" stop-color="#00bcd4"/>
+    </linearGradient>
+  </defs>
+  <!-- Box -->
+  <rect x="18" y="10" width="84" height="84" rx="16" fill="none" stroke="url(#e9)" stroke-width="2"/>
+  <!-- N constructed from horizontal bars (scanline effect creating 3D depth) -->
+  <clipPath id="e9clip">
+    <rect x="18" y="10" width="84" height="84" rx="16"/>
+  </clipPath>
+  <g clip-path="url(#e9clip)">
+    <rect x="22" y="14" width="76" height="76" fill="none"/>
+    <!-- Horizontal bars that form the N shape -->
+    <!-- Left leg bars -->
+    <rect x="22" y="14" width="16" height="5" fill="url(#e9)" opacity="0.9"/>
+    <rect x="22" y="22" width="16" height="5" fill="url(#e9)" opacity="0.85"/>
+    <rect x="22" y="30" width="16" height="5" fill="url(#e9)" opacity="0.8"/>
+    <rect x="22" y="38" width="16" height="5" fill="url(#e9)" opacity="0.75"/>
+    <rect x="22" y="46" width="16" height="5" fill="url(#e9)" opacity="0.7"/>
+    <rect x="22" y="54" width="16" height="5" fill="url(#e9)" opacity="0.65"/>
+    <rect x="22" y="62" width="16" height="5" fill="url(#e9)" opacity="0.6"/>
+    <rect x="22" y="70" width="16" height="5" fill="url(#e9)" opacity="0.55"/>
+    <rect x="22" y="78" width="16" height="5" fill="url(#e9)" opacity="0.5"/>
+    <!-- Diagonal bars -->
+    <rect x="38" y="14" width="6" height="5" fill="url(#e9)" opacity="0.8"/>
+    <rect x="40" y="22" width="6" height="5" fill="url(#e9)" opacity="0.75"/>
+    <rect x="42" y="30" width="6" height="5" fill="url(#e9)" opacity="0.7"/>
+    <rect x="44" y="38" width="6" height="5" fill="url(#e9)" opacity="0.65"/>
+    <rect x="46" y="46" width="6" height="5" fill="url(#e9)" opacity="0.6"/>
+    <rect x="48" y="54" width="6" height="5" fill="url(#e9)" opacity="0.55"/>
+    <rect x="46" y="62" width="6" height="5" fill="url(#e9)" opacity="0.5"/>
+    <rect x="44" y="70" width="6" height="5" fill="url(#e9)" opacity="0.45"/>
+    <rect x="42" y="78" width="6" height="5" fill="url(#e9)" opacity="0.4"/>
+    <!-- Right leg bars -->
+    <rect x="68" y="14" width="14" height="5" fill="url(#e9)" opacity="0.9"/>
+    <rect x="68" y="22" width="14" height="5" fill="url(#e9)" opacity="0.85"/>
+    <rect x="68" y="30" width="14" height="5" fill="url(#e9)" opacity="0.8"/>
+    <rect x="68" y="38" width="14" height="5" fill="url(#e9)" opacity="0.75"/>
+    <rect x="68" y="46" width="14" height="5" fill="url(#e9)" opacity="0.7"/>
+    <rect x="68" y="54" width="14" height="5" fill="url(#e9)" opacity="0.65"/>
+    <rect x="68" y="62" width="14" height="5" fill="url(#e9)" opacity="0.6"/>
+    <rect x="68" y="70" width="14" height="5" fill="url(#e9)" opacity="0.55"/>
+    <rect x="68" y="78" width="14" height="5" fill="url(#e9)" opacity="0.5"/>
+  </g>
+  <!-- NIVONEX -->
+  <text x="120" y="55" font-family="'Inter','Segoe UI',sans-serif" font-size="32" font-weight="700" fill="#e0e0e0" letter-spacing="4">NIVONEX</text>
+  <text x="122" y="78" font-family="'Inter','Segoe UI',sans-serif" font-size="9" fill="#6b7280" letter-spacing="3" font-weight="400">Strategy, Engineered</text>
+</svg>

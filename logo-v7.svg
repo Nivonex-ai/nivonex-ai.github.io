@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 120" width="500" height="120">
+  <defs>
+    <linearGradient id="g7" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a73e8"/>
+      <stop offset="100%" stop-color="#00bcd4"/>
+    </linearGradient>
+  </defs>
+  <!-- N with crosshair/scope -->
+  <text x="40" y="68" font-family="'Inter', 'Segoe UI', sans-serif" font-size="60" font-weight="800" fill="#e0e0e0" letter-spacing="-1">N</text>
+  <!-- Crosshair scope overlay -->
+  <circle cx="80" cy="45" r="18" fill="none" stroke="url(#g7)" stroke-width="1.5" opacity="0.7"/>
+  <line x1="62" y1="45" x2="98" y2="45" stroke="url(#g7)" stroke-width="1" opacity="0.5"/>
+  <line x1="80" y1="27" x2="80" y2="63" stroke="url(#g7)" stroke-width="1" opacity="0.5"/>
+  <circle cx="80" cy="45" r="3" fill="#00c853"/>
+  <!-- NIVONEX -->
+  <text x="115" y="55" font-family="'Inter', 'Segoe UI', sans-serif" font-size="30" font-weight="700" fill="#e0e0e0" letter-spacing="4">NIVONEX</text>
+  <!-- Tagline -->
+  <text x="117" y="78" font-family="'Inter', 'Segoe UI', sans-serif" font-size="9.5" fill="#6b7280" letter-spacing="3" font-weight="400">Precision in Execution</text>
+</svg>

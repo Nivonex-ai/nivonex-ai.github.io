@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 120" width="500" height="120">
+  <defs>
+    <linearGradient id="c8" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a73e8"/>
+      <stop offset="100%" stop-color="#00bcd4"/>
+    </linearGradient>
+    <mask id="m8">
+      <rect x="18" y="10" width="84" height="84" rx="16" fill="white"/>
+      <text x="36" y="66" font-family="'Inter','Segoe UI',sans-serif" font-size="52" font-weight="800" fill="black" letter-spacing="-1">N</text>
+      <!-- Candle -->
+      <rect x="72" y="38" width="5" height="26" rx="1" fill="black"/>
+      <rect x="80" y="25" width="6" height="39" rx="1" fill="black"/>
+      <rect x="89" y="34" width="5" height="30" rx="1" fill="black"/>
+      <!-- Trend line -->
+      <polyline points="18,72 40,55 60,68 80,45 100,52" fill="none" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    </mask>
+  </defs>
+  <rect x="18" y="10" width="84" height="84" rx="16" fill="url(#c8)" mask="url(#m8)"/>
+  <rect x="18" y="10" width="84" height="84" rx="16" fill="none" stroke="url(#c8)" stroke-width="2"/>
+  <circle cx="80" cy="45" r="3" fill="#0d1117" opacity="0.8"/>
+  <text x="120" y="55" font-family="'Inter','Segoe UI',sans-serif" font-size="32" font-weight="700" fill="#e0e0e0" letter-spacing="4">NIVONEX</text>
+  <text x="122" y="78" font-family="'Inter','Segoe UI',sans-serif" font-size="9" fill="#6b7280" letter-spacing="3" font-weight="400">Strategy, Engineered</text>
+</svg>

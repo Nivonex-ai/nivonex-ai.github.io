@@ -1,16 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
   <defs>
-    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="fav" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#1a73e8"/>
       <stop offset="100%" stop-color="#00bcd4"/>
     </linearGradient>
+    <mask id="favm">
+      <rect x="20" y="20" width="80" height="80" rx="16" fill="white"/>
+      <text x="38" y="74" font-family="'Inter',sans-serif" font-size="52" font-weight="800" fill="black" letter-spacing="-1">N</text>
+    </mask>
   </defs>
-  <circle cx="50" cy="50" r="48" fill="#0d1117" stroke="url(#g)" stroke-width="2"/>
-  <!-- Candlestick -->
-  <rect x="30" y="40" width="6" height="30" rx="1" fill="url(#g)" opacity="0.7"/>
-  <rect x="45" y="25" width="7" height="45" rx="1" fill="url(#g)" opacity="0.9"/>
-  <rect x="60" y="35" width="6" height="35" rx="1" fill="url(#g)" opacity="0.7"/>
-  <!-- Trend line -->
-  <polyline points="33,55 48,40 63,50" fill="none" stroke="#00c853" stroke-width="2" stroke-linecap="round"/>
-  <circle cx="48" cy="40" r="2.5" fill="#00c853"/>
+  <rect x="20" y="20" width="80" height="80" rx="16" fill="url(#fav)" mask="url(#favm)"/>
+  <polyline points="0,68 18,68 26,48 34,83 42,63 50,68 80,68" fill="none" stroke="#0d1117" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.6"/>
+  <rect x="20" y="20" width="80" height="80" rx="16" fill="none" stroke="url(#fav)" stroke-width="2"/>
 </svg>

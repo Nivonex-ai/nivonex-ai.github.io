@@ -6,7 +6,7 @@
     </linearGradient>
     <mask id="h1m">
       <rect x="6" y="9" width="44" height="44" rx="9" fill="white"/>
-      <text x="16" y="37" font-family="'Inter',sans-serif" font-size="28" font-weight="800" fill="black" letter-spacing="-1">N</text>
+      <text x="18" y="42" font-family="'Inter',sans-serif" font-size="30" font-weight="800" fill="black" letter-spacing="-1">N</text>
     </mask>
   </defs>
   <rect x="6" y="9" width="44" height="44" rx="9" fill="url(#h1)" mask="url(#h1m)"/>

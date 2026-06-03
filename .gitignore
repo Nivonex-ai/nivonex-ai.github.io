@@ -1,0 +1,17 @@
+# Old logo drafts (but not logo-horizontal.svg)
+logo-b*.svg
+logo-c*.svg
+logo-d*.svg
+logo-e*.svg
+logo-f*.svg
+logo-o*.svg
+logo-r*.svg
+logo-s*.svg
+logo-t*.svg
+logo-u*.svg
+logo-v*.svg
+logo-final*.svg
+logo-preview.html
+# OS files
+.DS_Store
+Thumbs.db

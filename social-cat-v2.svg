@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" width="500" height="400">
+  <defs>
+    <linearGradient id="h1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a73e8"/>
+      <stop offset="100%" stop-color="#00bcd4"/>
+    </linearGradient>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#161b22"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+    <linearGradient id="catBody" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e8a87c"/>
+      <stop offset="100%" stop-color="#d4896b"/>
+    </linearGradient>
+    <clipPath id="circle">
+      <circle cx="250" cy="200" r="195"/>
+    </clipPath>
+  </defs>
+
+  <!-- Background circle -->
+  <circle cx="250" cy="200" r="198" fill="url(#bg)"/>
+  <circle cx="250" cy="200" r="196" fill="url(#bg)"/>
+
+  <!-- Warm glow behind cat -->
+  <circle cx="250" cy="140" r="120" fill="#ffd700" opacity="0.06"/>
+
+  <!-- ===== CAT ===== -->
+  
+  <!-- Cat body -->
+  <ellipse cx="250" cy="160" rx="75" ry="65" fill="url(#catBody)"/>
+
+  <!-- Cat belly / lighter patch -->
+  <ellipse cx="250" cy="165" rx="45" ry="45" fill="#f5d6b8" opacity="0.6"/>
+
+  <!-- Cat ears -->
+  <path d="M195,120 L185,65 L225,105" fill="url(#catBody)" stroke="#c47a5a" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M305,120 L315,65 L275,105" fill="url(#catBody)" stroke="#c47a5a" stroke-width="2" stroke-linejoin="round"/>
+  <!-- Inner ears -->
+  <path d="M198,115 L190,75 L220,105" fill="#ffb6c1" opacity="0.7"/>
+  <path d="M302,115 L310,75 L280,105" fill="#ffb6c1" opacity="0.7"/>
+
+  <!-- Cat head -->
+  <ellipse cx="250" cy="135" rx="65" ry="50" fill="url(#catBody)"/>
+
+  <!-- Cheeks / face fluff -->
+  <ellipse cx="210" cy="145" rx="22" ry="18" fill="#f0bfa0" opacity="0.7"/>
+  <ellipse cx="290" cy="145" rx="22" ry="18" fill="#f0bfa0" opacity="0.7"/>
+
+  <!-- Blush marks -->
+  <ellipse cx="205" cy="150" rx="12" ry="7" fill="#ff8a8a" opacity="0.3"/>
+  <ellipse cx="295" cy="150" rx="12" ry="7" fill="#ff8a8a" opacity="0.3"/>
+
+  <!-- Eyes (big, friendly, bright) -->
+  <!-- Left eye -->
+  <ellipse cx="225" cy="130" rx="15" ry="17" fill="#fff"/>
+  <ellipse cx="225" cy="130" rx="11" ry="13" fill="#4a6fa5"/>
+  <ellipse cx="225" cy="130" rx="7" ry="9" fill="#1a1a2e"/>
+  <circle cx="229" cy="125" r="4" fill="#fff" opacity="0.9"/>
+  <circle cx="222" cy="133" r="2" fill="#fff" opacity="0.5"/>
+
+  <!-- Right eye -->
+  <ellipse cx="275" cy="130" rx="15" ry="17" fill="#fff"/>
+  <ellipse cx="275" cy="130" rx="11" ry="13" fill="#4a6fa5"/>
+  <ellipse cx="275" cy="130" rx="7" ry="9" fill="#1a1a2e"/>
+  <circle cx="279" cy="125" r="4" fill="#fff" opacity="0.9"/>
+  <circle cx="272" cy="133" r="2" fill="#fff" opacity="0.5"/>
+
+  <!-- Nose -->
+  <path d="M247,148 L250,153 L253,148" fill="#ff8a8a" stroke="#ff6b6b" stroke-width="1" stroke-linejoin="round"/>
+
+  <!-- Mouth (happy smile) -->
+  <path d="M240,155 C245,162 255,162 260,155" fill="none" stroke="#c47a5a" stroke-width="2" stroke-linecap="round"/>
+  <path d="M250,153 C250,158 248,160 245,157" fill="none" stroke="#c47a5a" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M250,153 C250,158 252,160 255,157" fill="none" stroke="#c47a5a" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- Whiskers -->
+  <line x1="195" y1="142" x2="218" y2="148" stroke="#c47a5a" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+  <line x1="190" y1="150" x2="216" y2="154" stroke="#c47a5a" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+  <line x1="195" y1="158" x2="218" y2="158" stroke="#c47a5a" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+  <line x1="305" y1="142" x2="282" y2="148" stroke="#c47a5a" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+  <line x1="310" y1="150" x2="284" y2="154" stroke="#c47a5a" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+  <line x1="305" y1="158" x2="282" y2="158" stroke="#c47a5a" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+
+  <!-- ===== PAWS HUGGING THE LOGO ===== -->
+  
+  <!-- Left paw -->
+  <path d="M175,200 C165,230 170,260 185,275" fill="none" stroke="url(#catBody)" stroke-width="22" stroke-linecap="round"/>
+  <ellipse cx="185" cy="275" rx="14" ry="10" fill="url(#catBody)" stroke="#c47a5a" stroke-width="1.5"/>
+  <ellipse cx="180" cy="273" rx="4" ry="3" fill="#ffb6c1" opacity="0.7"/>
+  <ellipse cx="185" cy="270" rx="4" ry="3" fill="#ffb6c1" opacity="0.7"/>
+  <ellipse cx="190" cy="273" rx="4" ry="3" fill="#ffb6c1" opacity="0.7"/>
+
+  <!-- Right paw -->
+  <path d="M325,200 C335,230 330,260 315,275" fill="none" stroke="url(#catBody)" stroke-width="22" stroke-linecap="round"/>
+  <ellipse cx="315" cy="275" rx="14" ry="10" fill="url(#catBody)" stroke="#c47a5a" stroke-width="1.5"/>
+  <ellipse cx="310" cy="273" rx="4" ry="3" fill="#ffb6c1" opacity="0.7"/>
+  <ellipse cx="315" cy="270" rx="4" ry="3" fill="#ffb6c1" opacity="0.7"/>
+  <ellipse cx="320" cy="273" rx="4" ry="3" fill="#ffb6c1" opacity="0.7"/>
+
+  <!-- ===== FULL LOGO ===== -->
+
+  <!-- Redraw of logo-horizontal.svg content -->
+  <!-- Gradient square with N -->
+  <rect x="95" y="270" width="52" height="52" rx="10" fill="url(#h1)"/>
+  <text x="110" y="306" font-family="Inter,sans-serif" font-size="33" font-weight="800" fill="#fff" letter-spacing="-1">N</text>
+  <rect x="95" y="270" width="52" height="52" rx="10" fill="none" stroke="url(#h1)" stroke-width="2.5"/>
+
+  <!-- Pulse line -->
+  <polyline points="89,296 95,296 99,288 103,298 107,292 111,296 129,296" fill="none" stroke="#0d1117" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.5"/>
+
+  <!-- NIVONEX text -->
+  <text x="155" y="302" font-family="Inter,sans-serif" font-size="32" font-weight="800" fill="#e0e0e0" letter-spacing="4">NIVONEX<tspan fill="url(#h1)" letter-spacing="0">.</tspan></text>
+
+  <!-- Tagline -->
+  <text x="155" y="318" font-family="Inter,sans-serif" font-size="12" font-weight="400" fill="#8b949e" letter-spacing="1">EVIDENCE BEFORE CAPITAL</text>
+
+  <!-- Small heart between cat and logo -->
+  <path d="M225,210 C225,205 230,200 235,205 C240,200 245,205 245,210 C245,218 235,225 235,225 C235,225 225,218 225,210Z" fill="#ff6b6b" opacity="0.8"/>
+</svg>

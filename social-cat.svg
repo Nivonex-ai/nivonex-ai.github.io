@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="h1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a73e8"/>
+      <stop offset="100%" stop-color="#00bcd4"/>
+    </linearGradient>
+    <clipPath id="circle">
+      <circle cx="200" cy="200" r="196"/>
+    </clipPath>
+  </defs>
+
+  <!-- Background circle -->
+  <circle cx="200" cy="200" r="198" fill="#0d1117"/>
+  <circle cx="200" cy="200" r="196" fill="#161b22"/>
+
+  <!-- Cat body (behind the logo) -->
+  <ellipse cx="200" cy="190" rx="80" ry="70" fill="#1a1a2e"/>
+
+  <!-- Cat ears -->
+  <path d="M145,145 L130,95 L175,130" fill="#1a1a2e" stroke="#e0e0e0" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M255,145 L270,95 L225,130" fill="#1a1a2e" stroke="#e0e0e0" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- Inner ear -->
+  <path d="M148,140 L136,102 L170,130" fill="#ffb6c1" opacity="0.5"/>
+  <path d="M252,140 L264,102 L230,130" fill="#ffb6c1" opacity="0.5"/>
+
+  <!-- Cat face -->
+  <ellipse cx="200" cy="165" rx="60" ry="45" fill="#1a1a2e"/>
+  <ellipse cx="200" cy="168" rx="55" ry="40" fill="#24263b"/>
+
+  <!-- Eyes peeking over logo -->
+  <ellipse cx="175" cy="155" rx="12" ry="14" fill="#ffd700"/>
+  <ellipse cx="225" cy="155" rx="12" ry="14" fill="#ffd700"/>
+  <ellipse cx="175" cy="155" rx="5" ry="10" fill="#111"/>
+  <ellipse cx="225" cy="155" rx="5" ry="10" fill="#111"/>
+  <!-- Eye shine -->
+  <circle cx="178" cy="151" r="3" fill="#fff" opacity="0.8"/>
+  <circle cx="228" cy="151" r="3" fill="#fff" opacity="0.8"/>
+
+  <!-- Nose -->
+  <path d="M196,175 L200,180 L204,175" fill="#ffb6c1" stroke="none"/>
+
+  <!-- Whiskers -->
+  <line x1="140" y1="170" x2="170" y2="175" stroke="#666" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="140" y1="180" x2="168" y2="182" stroke="#666" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="260" y1="170" x2="230" y2="175" stroke="#666" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="260" y1="180" x2="232" y2="182" stroke="#666" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- Nivonex gradient square with N -->
+  <rect x="130" y="175" width="140" height="140" rx="28" fill="url(#h1)"/>
+  <text x="168" y="270" font-family="Inter,sans-serif" font-size="96" font-weight="900" fill="#fff" letter-spacing="-3">N</text>
+  <rect x="130" y="175" width="140" height="140" rx="28" fill="none" stroke="url(#h1)" stroke-width="4"/>
+
+  <!-- Cat paws hugging the square -->
+  <!-- Left paw -->
+  <ellipse cx="122" cy="225" rx="16" ry="24" fill="#24263b" stroke="#e0e0e0" stroke-width="2"/>
+  <ellipse cx="118" cy="220" rx="5" ry="4" fill="#ffb6c1" opacity="0.6"/>
+  <ellipse cx="122" cy="226" rx="5" ry="4" fill="#ffb6c1" opacity="0.6"/>
+  <ellipse cx="126" cy="220" rx="5" ry="4" fill="#ffb6c1" opacity="0.6"/>
+
+  <!-- Right paw -->
+  <ellipse cx="278" cy="225" rx="16" ry="24" fill="#24263b" stroke="#e0e0e0" stroke-width="2"/>
+  <ellipse cx="274" cy="220" rx="5" ry="4" fill="#ffb6c1" opacity="0.6"/>
+  <ellipse cx="278" cy="226" rx="5" ry="4" fill="#ffb6c1" opacity="0.6"/>
+  <ellipse cx="282" cy="220" rx="5" ry="4" fill="#ffb6c1" opacity="0.6"/>
+
+  <!-- Tail curling around bottom -->
+  <path d="M310,310 C330,320 345,340 340,360 C335,375 320,370 310,360 C300,350 305,335 315,330" fill="none" stroke="#24263b" stroke-width="12" stroke-linecap="round"/>
+  <path d="M310,310 C330,320 345,340 340,360 C335,375 320,370 310,360 C300,350 305,335 315,330" fill="none" stroke="#1a1a2e" stroke-width="10" stroke-linecap="round"/>
+
+  <!-- Small paw pads -->
+  <circle cx="200" cy="330" r="6" fill="#ffb6c1" opacity="0.4"/>
+</svg>
